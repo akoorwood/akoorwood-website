@@ -37,6 +37,35 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section aria-label="Keunggulan Akoor Wood" className="border-b border-[#eadfd3] bg-[#fffdfa] px-6 py-9 sm:py-11">
+        <div className="mx-auto grid max-w-6xl grid-cols-2 gap-x-5 gap-y-8 md:grid-cols-4 md:gap-8">
+          <div className="flex items-start gap-3">
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#f8e9e5] text-[#bd101b]">
+              <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-7h6v7M8 9h.01M16 9h.01"/></svg>
+            </span>
+            <div><h2 className="text-sm font-semibold text-[#4b3025] sm:text-base">Kualitas Jepara</h2><p className="mt-1 text-xs leading-relaxed text-[#806e61] sm:text-sm">Pengerjaan rapi dan penuh perhatian.</p></div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#f8e9e5] text-[#bd101b]">
+              <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </span>
+            <div><h2 className="text-sm font-semibold text-[#4b3025] sm:text-base">Material Pilihan</h2><p className="mt-1 text-xs leading-relaxed text-[#806e61] sm:text-sm">Mengutamakan karakter kayu berkualitas.</p></div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#f8e9e5] text-[#bd101b]">
+              <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="m14 6 4 4M4 20l4.5-1 10-10a2.12 2.12 0 0 0-3-3l-10 10L4 20Z"/><path d="M13 7 17 11"/></svg>
+            </span>
+            <div><h2 className="text-sm font-semibold text-[#4b3025] sm:text-base">Bisa Custom</h2><p className="mt-1 text-xs leading-relaxed text-[#806e61] sm:text-sm">Desain dan ukuran sesuai kebutuhan.</p></div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#f8e9e5] text-[#bd101b]">
+              <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M3 7h11v11H3zM14 11h4l3 3v4h-7z"/><circle cx="7.5" cy="18.5" r="1.5"/><circle cx="17.5" cy="18.5" r="1.5"/></svg>
+            </span>
+            <div><h2 className="text-sm font-semibold text-[#4b3025] sm:text-base">Pengiriman Aman</h2><p className="mt-1 text-xs leading-relaxed text-[#806e61] sm:text-sm">Dikemas dengan baik hingga tujuan.</p></div>
+          </div>
+        </div>
+      </section>
+
       <section id="about" className="mx-auto grid max-w-6xl scroll-mt-24 items-start gap-8 px-6 py-14 sm:gap-10 sm:py-16 md:grid-cols-[1.15fr_.85fr] md:gap-14 md:py-24">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#a66e50]">Cerita Kami</p>
