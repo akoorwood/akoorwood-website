@@ -7,38 +7,33 @@ export default function HomePage() {
     <main className="min-h-screen bg-[#f8f5f0] text-[#241b16]">
       <SiteHeader />
 
-      <section
-        id="home"
-        className="relative isolate flex aspect-[16/9] min-h-0 scroll-mt-24 items-center overflow-hidden bg-[#9d8069] px-6 py-8 text-white sm:px-8 md:px-12 md:py-12 lg:px-20"
-      >
+      <section id="home" className="relative isolate scroll-mt-24 overflow-hidden bg-[#9d8069] text-white">
         <img
           src="/akoor-hero.png"
           alt="Interior furniture Akoor Wood dengan kursi kayu dan meja samping"
-          className="absolute inset-0 -z-20 h-full w-full object-contain object-center"
+          className="block h-auto w-full"
         />
-        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#1c130e]/55 via-[#271a12]/25 to-transparent" />
-        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/10 via-transparent to-transparent" />
-        <div className="mx-auto w-full max-w-7xl">
-          <div className="max-w-2xl">
-            <span className="mb-7 block h-1.5 w-20 rounded-full bg-[#c91420]" />
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.34em] text-white/75">Jepara · Handcrafted Furniture</p>
-            <h1 className="text-5xl font-semibold leading-[1.02] tracking-tight md:text-7xl lg:text-8xl">AKOOR WOOD</h1>
-            <p className="mt-6 text-2xl font-light tracking-wide md:text-3xl">Dari Kayu Menjadi Cerita</p>
-            <p className="mt-5 max-w-xl text-base leading-relaxed text-white/85 md:text-lg">
-              Furniture premium Jepara dengan karakter kayu alami, desain modern, dan sentuhan handmade workshop.
-            </p>
-            <div className="mt-9 flex flex-wrap gap-4">
-              <a href={whatsapp} target="_blank" rel="noreferrer" className="rounded-full bg-[#bd101b] px-8 py-4 font-semibold text-white shadow-xl transition hover:-translate-y-1 hover:bg-[#a30c16]">
-                Hubungi WhatsApp
-              </a>
-              <a href="#catalog" className="rounded-full border border-white/90 bg-white/10 px-8 py-4 font-semibold text-white backdrop-blur-sm transition hover:bg-white hover:text-[#35251c]">
-                Lihat Katalog
-              </a>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1c130e]/60 via-[#271a12]/25 to-transparent" />
+        <div className="absolute inset-0 flex items-center px-6 py-5 sm:px-8 md:px-12 md:py-8 lg:px-20">
+          <div className="mx-auto w-full max-w-7xl">
+            <div className="max-w-[48%] sm:max-w-[48%] md:max-w-[48%]">
+              <span className="mb-3 block h-1 w-12 rounded-full bg-[#c91420] sm:mb-5 sm:h-1.5 sm:w-16 md:mb-7 md:w-20" />
+              <p className="mb-2 text-[8px] font-semibold uppercase tracking-[0.24em] text-white/80 sm:mb-3 sm:text-[10px] md:mb-4 md:text-xs md:tracking-[0.34em]">Jepara · Handcrafted Furniture</p>
+              <h1 className="text-[clamp(1.45rem,5vw,5.5rem)] font-semibold leading-[1.02] tracking-tight">AKOOR WOOD</h1>
+              <p className="mt-2 text-[clamp(.8rem,2.2vw,1.9rem)] font-light tracking-wide sm:mt-3 md:mt-6">Dari Kayu Menjadi Cerita</p>
+              <p className="mt-2 max-w-xl text-[clamp(.55rem,1.25vw,1.125rem)] leading-relaxed text-white/90 sm:mt-3 md:mt-5">
+                Furniture premium Jepara dengan karakter kayu alami, desain modern, dan sentuhan handmade workshop.
+              </p>
+              <div className="mt-3 flex flex-wrap gap-2 sm:mt-5 md:mt-9 md:gap-4">
+                <a href={whatsapp} target="_blank" rel="noreferrer" className="rounded-full bg-[#bd101b] px-3 py-2 text-[9px] font-semibold text-white shadow-xl transition hover:-translate-y-1 hover:bg-[#a30c16] sm:px-5 sm:py-2.5 sm:text-xs md:px-8 md:py-4 md:text-base">
+                  Hubungi WhatsApp
+                </a>
+                <a href="#catalog" className="rounded-full border border-white/90 bg-white/10 px-3 py-2 text-[9px] font-semibold text-white backdrop-blur-sm transition hover:bg-white hover:text-[#35251c] sm:px-5 sm:py-2.5 sm:text-xs md:px-8 md:py-4 md:text-base">
+                  Lihat Katalog
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="absolute bottom-7 right-8 hidden items-center gap-3 text-xs uppercase tracking-[0.24em] text-white/70 md:flex">
-          <span className="h-px w-12 bg-white/60" /> Crafted with care in Jepara
         </div>
       </section>
 
