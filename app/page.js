@@ -7,28 +7,28 @@ export default function HomePage() {
     <main className="min-h-screen bg-[#f8f5f0] text-[#241b16]">
       <SiteHeader />
 
-      <section id="home" className="relative isolate scroll-mt-24 overflow-hidden bg-[#9d8069] text-white">
+      <section id="home" className="relative isolate min-h-[560px] scroll-mt-24 overflow-hidden bg-[#4a3024] text-white sm:min-h-[620px] md:min-h-0">
         <img
           src="/akoor-hero-interior.png"
           alt="Interior furniture Akoor Wood dengan kursi kayu dan meja samping"
-          className="block h-auto w-full"
+          className="absolute inset-0 h-full w-full object-cover object-[62%_center] md:relative md:h-auto md:object-contain md:object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#1c130e]/60 via-[#271a12]/25 to-transparent" />
-        <div className="absolute inset-0 flex items-center px-6 py-5 sm:px-8 md:px-12 md:py-8 lg:px-20">
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1c130e]/75 via-[#271a12]/40 to-[#271a12]/10 md:from-[#1c130e]/60 md:via-[#271a12]/25 md:to-transparent" />
+        <div className="relative z-10 flex min-h-[560px] items-center px-6 py-12 sm:min-h-[620px] sm:px-8 md:absolute md:inset-0 md:min-h-0 md:px-12 md:py-8 lg:px-20">
           <div className="mx-auto w-full max-w-7xl">
-            <div className="max-w-[48%] sm:max-w-[48%] md:max-w-[48%]">
-              <span className="mb-3 block h-1 w-12 rounded-full bg-[#c91420] sm:mb-5 sm:h-1.5 sm:w-16 md:mb-7 md:w-20" />
-              <p className="mb-2 text-[8px] font-semibold uppercase tracking-[0.24em] text-white/80 sm:mb-3 sm:text-[10px] md:mb-4 md:text-xs md:tracking-[0.34em]">Handcrafted Furniture</p>
-              <h1 className="text-[clamp(1.45rem,5vw,5.5rem)] font-semibold leading-[1.02] tracking-tight">AKOOR WOOD</h1>
-              <p className="mt-2 text-[clamp(.8rem,2.2vw,1.9rem)] font-light tracking-wide sm:mt-3 md:mt-6">Dari Kayu Menjadi Cerita</p>
-              <p className="mt-2 max-w-xl text-[clamp(.55rem,1.25vw,1.125rem)] leading-relaxed text-white/90 sm:mt-3 md:mt-5">
+            <div className="max-w-[78%] sm:max-w-[68%] md:max-w-[48%]">
+              <span className="mb-4 block h-1 w-12 rounded-full bg-[#c91420] sm:mb-5 sm:h-1.5 sm:w-16 md:mb-7 md:w-20" />
+              <p className="mb-3 block text-[10px] font-semibold uppercase tracking-[0.24em] text-white/85 sm:text-xs md:mb-4 md:text-xs md:tracking-[0.34em]">Handcrafted Furniture</p>
+              <h1 className="text-4xl font-semibold leading-[1.02] tracking-tight sm:text-5xl md:text-[clamp(1.45rem,5vw,5.5rem)]">AKOOR WOOD</h1>
+              <p className="mt-3 text-lg font-light tracking-wide sm:text-xl md:mt-6 md:text-[clamp(.8rem,2.2vw,1.9rem)]">Dari Kayu Menjadi Cerita</p>
+              <p className="mt-3 max-w-sm text-sm leading-relaxed text-white/90 sm:text-base md:mt-5 md:text-[clamp(.55rem,1.25vw,1.125rem)]">
                 Furniture premium Jepara dengan karakter kayu alami, desain modern, dan sentuhan handmade workshop.
               </p>
-              <div className="mt-3 flex flex-wrap gap-2 sm:mt-5 md:mt-9 md:gap-4">
-                <a href={whatsapp} target="_blank" rel="noreferrer" className="rounded-full bg-[#bd101b] px-3 py-2 text-[9px] font-semibold text-white shadow-xl transition hover:-translate-y-1 hover:bg-[#a30c16] sm:px-5 sm:py-2.5 sm:text-xs md:px-8 md:py-4 md:text-base">
+              <div className="mt-6 flex flex-wrap gap-3 sm:mt-7 md:mt-9 md:gap-4">
+                <a href={whatsapp} target="_blank" rel="noreferrer" className="rounded-full bg-[#bd101b] px-5 py-3 text-sm font-semibold text-white shadow-xl transition hover:-translate-y-1 hover:bg-[#a30c16] md:px-8 md:py-4 md:text-base">
                   Hubungi WhatsApp
                 </a>
-                <a href="#catalog" className="rounded-full border border-white/90 bg-white/10 px-3 py-2 text-[9px] font-semibold text-white backdrop-blur-sm transition hover:bg-white hover:text-[#35251c] sm:px-5 sm:py-2.5 sm:text-xs md:px-8 md:py-4 md:text-base">
+                <a href="#catalog" className="rounded-full border border-white/90 bg-white/10 px-5 py-3 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white hover:text-[#35251c] md:px-8 md:py-4 md:text-base">
                   Lihat Katalog
                 </a>
               </div>
@@ -37,7 +37,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="about" className="mx-auto grid max-w-6xl scroll-mt-24 items-start gap-10 px-6 py-20 md:grid-cols-[1.15fr_.85fr] md:gap-14 md:py-24">
+      <section id="about" className="mx-auto grid max-w-6xl scroll-mt-24 items-start gap-8 px-6 py-14 sm:gap-10 sm:py-16 md:grid-cols-[1.15fr_.85fr] md:gap-14 md:py-24">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#a66e50]">Cerita Kami</p>
           <h2 className="mt-3 text-4xl font-semibold text-[#6f392b]">Tentang Akoor Wood</h2>
