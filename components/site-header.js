@@ -33,7 +33,7 @@ export default function SiteHeader() {
           ))}
         </nav>
 
-        <a href="https://wa.me/6281234567890" target="_blank" rel="noreferrer" className="hidden rounded-full bg-[#a63d32] px-5 py-3 text-xs font-semibold tracking-wide text-white shadow-sm transition duration-300 hover:-translate-y-0.5 hover:bg-[#873128] hover:shadow-md lg:inline-flex">
+        <a href="https://wa.me/6281226162778" target="_blank" rel="noreferrer" className="hidden rounded-full bg-[#a63d32] px-5 py-3 text-xs font-semibold tracking-wide text-white shadow-sm transition duration-300 hover:-translate-y-0.5 hover:bg-[#873128] hover:shadow-md lg:inline-flex">
           Hubungi WhatsApp
         </a>
 
@@ -53,7 +53,7 @@ export default function SiteHeader() {
               {label}
             </a>
           ))}
-          <a href="https://wa.me/6281234567890" target="_blank" rel="noreferrer" onClick={() => setOpen(false)} className="my-3 rounded-full bg-[#a63d32] px-5 py-3 text-center text-sm font-semibold text-white transition hover:bg-[#873128]">
+          <a href="https://wa.me/6281226162778" target="_blank" rel="noreferrer" onClick={() => setOpen(false)} className="my-3 rounded-full bg-[#a63d32] px-5 py-3 text-center text-sm font-semibold text-white transition hover:bg-[#873128]">
             Hubungi WhatsApp
           </a>
         </nav>
