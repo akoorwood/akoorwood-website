@@ -97,27 +97,40 @@ export default function HomePage() {
         </div>
       </section>
 
-      <footer id="contact" className="scroll-mt-24 bg-[#30231d] px-6 py-14 text-center text-white">
-        <div className="mx-auto max-w-2xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#d6a58e]">Hubungi Kami</p>
-          <h2 className="mt-3 text-3xl font-semibold tracking-[0.08em] md:text-4xl">Ada Rencana untuk Ruang Anda?</h2>
-          <p className="mt-5 leading-relaxed text-white/75">
-            Punya ide, kebutuhan, atau proyek furniture yang sedang Anda persiapkan? Kami ingin mendengarnya.
-          </p>
-          <p className="mt-3 leading-relaxed text-white/75">
-            Jangan ragu untuk bertanya atau berkonsultasi. Sampaikan gambaran kebutuhan Anda, dan mari bicarakan kemungkinan terbaik untuk mewujudkannya.
-          </p>
-          <p className="mt-3 leading-relaxed text-white/75">
-            Baik untuk kebutuhan pribadi maupun proyek usaha, setiap percakapan bisa menjadi awal dari sebuah karya.
-          </p>
-          <p className="mt-5 font-medium text-white">Mari mulai percakapan bersama Akoor Wood.</p>
-          <h3 className="mt-9 text-xl font-semibold tracking-[0.12em]">AKOOR WOOD</h3>
-          <p className="mt-2 text-sm text-white/65">Dari Kayu Menjadi Cerita</p>
-          <a href={whatsapp} target="_blank" rel="noreferrer" className="mt-6 inline-flex rounded-full bg-[#bd101b] px-7 py-3.5 text-sm font-semibold transition hover:bg-[#a30c16]">
-            Hubungi Kami via WhatsApp
-          </a>
+      <footer id="contact" className="scroll-mt-24 bg-[#30231d] px-6 py-16 text-white md:px-10 md:py-20">
+        <div className="mx-auto max-w-6xl">
+          <div className="grid gap-10 md:grid-cols-[1.05fr_.95fr] md:items-start md:gap-16">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#d6a58e]">Hubungi Kami</p>
+              <h2 className="mt-5 max-w-xl text-4xl font-semibold leading-[1.12] tracking-tight md:text-5xl">
+                Ada Rencana untuk Ruang Anda?
+              </h2>
+              <p className="mt-6 max-w-md text-base leading-relaxed text-white/70">
+                Punya ide, kebutuhan, atau proyek furniture yang sedang Anda persiapkan? Kami ingin mendengarnya.
+              </p>
+              <div className="mt-10 border-l-2 border-[#bd101b] pl-5">
+                <h3 className="text-xl font-semibold tracking-[0.12em]">AKOOR WOOD</h3>
+                <p className="mt-2 text-sm text-white/60">Dari Kayu Menjadi Cerita</p>
+              </div>
+            </div>
+            <div className="pt-1 md:pt-12">
+              <p className="leading-relaxed text-white/75">
+                Jangan ragu untuk bertanya atau berkonsultasi. Sampaikan gambaran kebutuhan Anda, dan mari bicarakan kemungkinan terbaik untuk mewujudkannya.
+              </p>
+              <p className="mt-5 leading-relaxed text-white/75">
+                Baik untuk kebutuhan pribadi maupun proyek usaha, setiap percakapan bisa menjadi awal dari sebuah karya.
+              </p>
+              <p className="mt-7 font-medium text-white">Mari mulai percakapan bersama Akoor Wood.</p>
+              <a href={whatsapp} target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center rounded-full bg-[#bd101b] px-7 py-3.5 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-[#a30c16]">
+                Hubungi Kami via WhatsApp <span className="ml-2" aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+          <div className="mt-14 flex flex-col gap-3 border-t border-white/15 pt-6 text-xs text-white/50 sm:flex-row sm:items-center sm:justify-between">
+            <p>© 2026 Akoor Wood — Dari Kayu Menjadi Cerita</p>
+            <p>Furniture dengan cerita, dibuat dengan perhatian.</p>
+          </div>
         </div>
-        <p className="mt-10 text-xs text-white/50">© 2026 Akoor Wood — Dari Kayu Menjadi Cerita</p>
       </footer>
     </main>
   )
