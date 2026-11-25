@@ -126,7 +126,7 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-          <div className="mt-14 border-t border-white/15 pt-6 text-xs text-white/50">
+          <div className="mt-14 border-t border-white/15 pt-6 text-center text-xs text-white/50">
             <p>© 2026 Akoor Wood — Dari Kayu Menjadi Cerita</p>
           </div>
         </div>
