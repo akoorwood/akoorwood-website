@@ -115,14 +115,47 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="workshop" className="scroll-mt-24 bg-[#eee6dc] px-6 py-20">
-        <div className="mx-auto max-w-5xl text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#a66e50]">Dibuat di Jepara</p>
-          <h2 className="mt-3 text-3xl font-semibold text-[#6f392b] md:text-4xl">Sentuhan Workshop</h2>
-          <p className="mx-auto mt-5 max-w-2xl leading-relaxed text-[#62534a]">
-            Setiap karya berawal dari pemilihan material dan proses pengerjaan yang teliti.
-            Hubungi tim Akoor Wood untuk membicarakan kebutuhan furniture Anda.
-          </p>
+      <section id="workshop" className="relative scroll-mt-24 overflow-hidden bg-[#38271f] px-6 py-14 text-white sm:py-16 md:py-20" style={{ backgroundImage: "linear-gradient(90deg, rgba(28,18,13,.92), rgba(40,25,17,.78)), url('/contact-wood-home.png')", backgroundSize: "cover", backgroundPosition: "center" }}>
+        <div className="mx-auto max-w-6xl">
+          <div className="max-w-xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#d6a58e]">Dari Awal Hingga Selesai</p>
+            <h2 className="mt-3 text-3xl font-semibold md:text-4xl">Proses Kami</h2>
+            <p className="mt-4 max-w-lg text-sm leading-relaxed text-white/80 md:text-base">
+              Dari pemilihan kayu, pengerjaan, hingga finishing, setiap tahap dilakukan dengan perhatian pada detail dan kualitas.
+            </p>
+          </div>
+          <div className="mt-10 grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 md:grid-cols-5 md:gap-5">
+            <div className="flex flex-col items-center text-center">
+              <span className="flex h-14 w-14 items-center justify-center rounded-full bg-[#bd101b] text-white shadow-lg ring-4 ring-white/10">
+                <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-7h6v7M8 9h.01M16 9h.01"/></svg>
+              </span>
+              <h3 className="mt-3 text-sm font-semibold">Pilih Kayu</h3>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <span className="flex h-14 w-14 items-center justify-center rounded-full bg-[#bd101b] text-white shadow-lg ring-4 ring-white/10">
+                <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="m14 6 4 4M4 20l4.5-1 10-10a2.12 2.12 0 0 0-3-3l-10 10L4 20Z"/></svg>
+              </span>
+              <h3 className="mt-3 text-sm font-semibold">Pengerjaan</h3>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <span className="flex h-14 w-14 items-center justify-center rounded-full bg-[#bd101b] text-white shadow-lg ring-4 ring-white/10">
+                <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="m14 6 4 4M4 20l4.5-1 10-10a2.12 2.12 0 0 0-3-3l-10 10L4 20Z"/><path d="m8 16 2 2"/></svg>
+              </span>
+              <h3 className="mt-3 text-sm font-semibold">Finishing</h3>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <span className="flex h-14 w-14 items-center justify-center rounded-full bg-[#bd101b] text-white shadow-lg ring-4 ring-white/10">
+                <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/><path d="m9 12 2 2 4-4"/></svg>
+              </span>
+              <h3 className="mt-3 text-sm font-semibold">Quality Check</h3>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <span className="flex h-14 w-14 items-center justify-center rounded-full bg-[#bd101b] text-white shadow-lg ring-4 ring-white/10">
+                <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M3 7h11v11H3zM14 11h4l3 3v4h-7z"/><circle cx="7.5" cy="18.5" r="1.5"/><circle cx="17.5" cy="18.5" r="1.5"/></svg>
+              </span>
+              <h3 className="mt-3 text-sm font-semibold">Pengiriman</h3>
+            </div>
+          </div>
         </div>
       </section>
 
