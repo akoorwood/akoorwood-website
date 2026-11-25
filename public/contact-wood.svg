@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#21130e"/>
+      <stop offset=".48" stop-color="#4a2819"/>
+      <stop offset="1" stop-color="#1b100c"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#a66a3f" stop-opacity=".24"/>
+      <stop offset=".42" stop-color="#6b3c24" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#100906" stop-opacity=".42"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".012 .16" numOctaves="2" seed="17"/>
+      <feColorMatrix values="1 0 0 0 .12  0 .65 0 0 .04  0 0 .42 0 0  0 0 0 .22 0"/>
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#base)"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M-80 110 C260 60 400 160 760 100 S1270 45 1690 120" stroke="#b77b4d" stroke-opacity=".24" stroke-width="20" filter="url(#soft)"/>
+    <path d="M-60 205 C300 160 480 250 820 190 S1300 160 1670 220" stroke="#100905" stroke-opacity=".55" stroke-width="7"/>
+    <path d="M-80 330 C260 280 520 370 850 315 S1310 285 1690 350" stroke="#b77b4d" stroke-opacity=".18" stroke-width="13"/>
+    <path d="M-70 475 C280 420 480 520 850 460 S1320 430 1680 490" stroke="#100905" stroke-opacity=".48" stroke-width="10"/>
+    <path d="M-80 620 C240 570 490 660 820 605 S1310 570 1690 640" stroke="#a66a3f" stroke-opacity=".18" stroke-width="18" filter="url(#soft)"/>
+    <path d="M-70 760 C280 720 500 800 870 750 S1320 710 1680 780" stroke="#100905" stroke-opacity=".52" stroke-width="8"/>
+    <path d="M80 0 C130 210 65 420 120 900 M520 0 C570 240 505 580 550 900 M1120 0 C1160 230 1100 560 1150 900" stroke="#d29a68" stroke-opacity=".07" stroke-width="3"/>
+  </g>
+  <rect width="1600" height="900" filter="url(#grain)" opacity=".34"/>
+  <rect width="1600" height="900" fill="url(#sheen)"/>
+</svg>
