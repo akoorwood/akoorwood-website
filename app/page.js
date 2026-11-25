@@ -97,13 +97,27 @@ export default function HomePage() {
         </div>
       </section>
 
-      <footer id="contact" className="scroll-mt-24 bg-[#30231d] px-6 py-12 text-center text-white">
-        <h2 className="text-2xl font-semibold tracking-[0.12em]">AKOOR WOOD</h2>
-        <p className="mt-3 text-sm text-white/70">Dari Kayu Menjadi Cerita</p>
-        <a href={whatsapp} target="_blank" rel="noreferrer" className="mt-6 inline-flex rounded-full bg-[#bd101b] px-6 py-3 text-sm font-semibold transition hover:bg-[#a30c16]">
-          Hubungi Kami
-        </a>
-        <p className="mt-8 text-xs text-white/50">© 2026 Akoor Wood — Dari Kayu Menjadi Cerita</p>
+      <footer id="contact" className="scroll-mt-24 bg-[#30231d] px-6 py-14 text-center text-white">
+        <div className="mx-auto max-w-2xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#d6a58e]">Hubungi Kami</p>
+          <h2 className="mt-3 text-3xl font-semibold tracking-[0.08em] md:text-4xl">Ada Rencana untuk Ruang Anda?</h2>
+          <p className="mt-5 leading-relaxed text-white/75">
+            Punya ide, kebutuhan, atau proyek furniture yang sedang Anda persiapkan? Kami ingin mendengarnya.
+          </p>
+          <p className="mt-3 leading-relaxed text-white/75">
+            Jangan ragu untuk bertanya atau berkonsultasi. Sampaikan gambaran kebutuhan Anda, dan mari bicarakan kemungkinan terbaik untuk mewujudkannya.
+          </p>
+          <p className="mt-3 leading-relaxed text-white/75">
+            Baik untuk kebutuhan pribadi maupun proyek usaha, setiap percakapan bisa menjadi awal dari sebuah karya.
+          </p>
+          <p className="mt-5 font-medium text-white">Mari mulai percakapan bersama Akoor Wood.</p>
+          <h3 className="mt-9 text-xl font-semibold tracking-[0.12em]">AKOOR WOOD</h3>
+          <p className="mt-2 text-sm text-white/65">Dari Kayu Menjadi Cerita</p>
+          <a href={whatsapp} target="_blank" rel="noreferrer" className="mt-6 inline-flex rounded-full bg-[#bd101b] px-7 py-3.5 text-sm font-semibold transition hover:bg-[#a30c16]">
+            Hubungi Kami via WhatsApp
+          </a>
+        </div>
+        <p className="mt-10 text-xs text-white/50">© 2026 Akoor Wood — Dari Kayu Menjadi Cerita</p>
       </footer>
     </main>
   )
