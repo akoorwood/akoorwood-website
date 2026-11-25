@@ -33,7 +33,7 @@ export default function SiteHeader() {
           ))}
         </nav>
 
-        <a href="https://wa.me/6281226162778" target="_blank" rel="noreferrer" className="hidden rounded-full bg-[#a63d32] px-5 py-3 text-xs font-semibold tracking-wide text-white shadow-sm transition duration-300 hover:-translate-y-0.5 hover:bg-[#873128] hover:shadow-md lg:inline-flex">
+        <a href="https://wa.me/6281226162778?text=Halo%20Admin%20Akoor%20Wood%20%F0%9F%91%8B%0A%0ASaya%20berkunjung%20dari%20website%20Akoor%20Wood.%20Saya%20ingin%20bertanya%20mengenai%20produk%20furniture%20yang%20tersedia.%0A%0AMohon%20informasinya.%20Terima%20kasih." target="_blank" rel="noreferrer" className="hidden rounded-full bg-[#a63d32] px-5 py-3 text-xs font-semibold tracking-wide text-white shadow-sm transition duration-300 hover:-translate-y-0.5 hover:bg-[#873128] hover:shadow-md lg:inline-flex">
           Hubungi WhatsApp
         </a>
 
@@ -53,7 +53,7 @@ export default function SiteHeader() {
               {label}
             </a>
           ))}
-          <a href="https://wa.me/6281226162778" target="_blank" rel="noreferrer" onClick={() => setOpen(false)} className="my-3 rounded-full bg-[#a63d32] px-5 py-3 text-center text-sm font-semibold text-white transition hover:bg-[#873128]">
+          <a href="https://wa.me/6281226162778?text=Halo%20Admin%20Akoor%20Wood%20%F0%9F%91%8B%0A%0ASaya%20berkunjung%20dari%20website%20Akoor%20Wood.%20Saya%20ingin%20bertanya%20mengenai%20produk%20furniture%20yang%20tersedia.%0A%0AMohon%20informasinya.%20Terima%20kasih." target="_blank" rel="noreferrer" onClick={() => setOpen(false)} className="my-3 rounded-full bg-[#a63d32] px-5 py-3 text-center text-sm font-semibold text-white transition hover:bg-[#873128]">
             Hubungi WhatsApp
           </a>
         </nav>
