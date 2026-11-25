@@ -13,7 +13,7 @@ export default function HomePage() {
           desain modern, dan sentuhan handmade workshop.
         </p>
         <div className="mt-10 flex flex-wrap justify-center gap-4">
-          <a href="https://wa.me/6281226162778" target="_blank" rel="noreferrer" className="rounded-2xl bg-white px-8 py-4 font-semibold text-[#A63D32] shadow-lg transition hover:-translate-y-1 hover:shadow-xl">
+          <a href="https://wa.me/6281226162778?text=Halo%20Admin%20Akoor%20Wood%20%F0%9F%91%8B%0A%0ASaya%20berkunjung%20dari%20website%20Akoor%20Wood.%20Saya%20ingin%20bertanya%20mengenai%20produk%20furniture%20yang%20tersedia.%0A%0AMohon%20informasinya.%20Terima%20kasih." target="_blank" rel="noreferrer" className="rounded-2xl bg-white px-8 py-4 font-semibold text-[#A63D32] shadow-lg transition hover:-translate-y-1 hover:shadow-xl">
             Hubungi WhatsApp
           </a>
           <a href="#catalog" className="rounded-2xl border border-white px-8 py-4 font-semibold transition hover:bg-white hover:text-[#A63D32]">
@@ -69,7 +69,7 @@ export default function HomePage() {
       <footer id="contact" className="scroll-mt-24 bg-[#332923] px-6 py-12 text-center text-white">
         <h2 className="text-2xl font-semibold tracking-[0.12em]">AKOOR WOOD</h2>
         <p className="mt-3 text-sm text-white/70">Dari Kayu Menjadi Cerita</p>
-        <a href="https://wa.me/6281226162778" target="_blank" rel="noreferrer" className="mt-6 inline-flex rounded-full bg-[#A63D32] px-6 py-3 text-sm font-semibold transition hover:bg-[#873128]">
+        <a href="https://wa.me/6281226162778?text=Halo%20Admin%20Akoor%20Wood%20%F0%9F%91%8B%0A%0ASaya%20berkunjung%20dari%20website%20Akoor%20Wood.%20Saya%20ingin%20bertanya%20mengenai%20produk%20furniture%20yang%20tersedia.%0A%0AMohon%20informasinya.%20Terima%20kasih." target="_blank" rel="noreferrer" className="mt-6 inline-flex rounded-full bg-[#A63D32] px-6 py-3 text-sm font-semibold transition hover:bg-[#873128]">
           Hubungi Kami
         </a>
         <p className="mt-8 text-xs text-white/50">© 2026 Akoor Wood — Dari Kayu Menjadi Cerita</p>
