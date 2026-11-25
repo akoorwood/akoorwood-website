@@ -21,7 +21,7 @@ export default function SiteHeader() {
           <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#a63d32] text-sm font-bold tracking-tight text-white shadow-sm">AW</span>
           <span className="leading-tight">
             <span className="block text-lg font-semibold tracking-[0.12em] text-[#8f352c]">AKOOR WOOD</span>
-            <span className="hidden text-[9px] tracking-[0.24em] text-[#8b776b] sm:block">JEpara · HANDCRAFTED FURNITURE</span>
+            <span className="hidden text-[9px] tracking-[0.24em] text-[#8b776b] sm:block">HANDCRAFTED FURNITURE</span>
           </span>
         </a>
 
