@@ -5,7 +5,7 @@ const siteUrl = 'https://www.akoorwood.com'
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Akoor Wood | Furniture Jepara & Mebel Kayu Premium',
+    default: 'Akoor Wood | Furniture Jepara, Mebel Minimalis & Custom',
     template: '%s | Akoor Wood',
   },
   description:
@@ -29,7 +29,7 @@ export const metadata = {
     locale: 'id_ID',
     url: siteUrl,
     siteName: 'Akoor Wood',
-    title: 'Akoor Wood | Furniture Jepara & Mebel Kayu Premium',
+    title: 'Akoor Wood | Furniture Jepara, Mebel Minimalis & Custom',
     description:
       'Furniture Jepara dengan karakter kayu alami, desain modern, dan sentuhan handmade workshop. Dari Kayu Menjadi Cerita.',
     images: [
@@ -43,7 +43,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Akoor Wood | Furniture Jepara & Mebel Kayu Premium',
+    title: 'Akoor Wood | Furniture Jepara, Mebel Minimalis & Custom',
     description:
       'Furniture Jepara dengan karakter kayu alami, desain modern, dan sentuhan handmade workshop.',
     images: ['/akoor-hero-interior.png'],
