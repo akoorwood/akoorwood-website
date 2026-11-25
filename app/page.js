@@ -9,15 +9,15 @@ export default function HomePage() {
 
       <section
         id="home"
-        className="relative isolate flex aspect-[16/9] min-h-[520px] scroll-mt-24 items-center overflow-hidden bg-[#9d8069] px-6 py-16 text-white md:min-h-0 md:px-12 md:py-20 lg:px-20"
-        style={{
-          backgroundImage: "linear-gradient(90deg, rgba(28,19,14,.66) 0%, rgba(39,26,18,.42) 38%, rgba(39,26,18,.02) 75%), url('/akoor-hero.png')",
-          backgroundPosition: 'center',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-        }}
+        className="relative isolate flex aspect-[16/9] min-h-0 scroll-mt-24 items-center overflow-hidden bg-[#9d8069] px-6 py-8 text-white sm:px-8 md:px-12 md:py-12 lg:px-20"
       >
-        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/15 via-transparent to-black/5" />
+        <img
+          src="/akoor-hero.png"
+          alt="Interior furniture Akoor Wood dengan kursi kayu dan meja samping"
+          className="absolute inset-0 -z-20 h-full w-full object-contain object-center"
+        />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#1c130e]/55 via-[#271a12]/25 to-transparent" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/10 via-transparent to-transparent" />
         <div className="mx-auto w-full max-w-7xl">
           <div className="max-w-2xl">
             <span className="mb-7 block h-1.5 w-20 rounded-full bg-[#c91420]" />
