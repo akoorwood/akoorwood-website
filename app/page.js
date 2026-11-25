@@ -12,8 +12,8 @@ export default function HomePage() {
         className="relative isolate flex min-h-[680px] scroll-mt-24 items-center overflow-hidden bg-[#9d8069] px-6 py-24 text-white md:min-h-[760px] md:px-12 lg:px-20"
         style={{
           backgroundImage: "linear-gradient(90deg, rgba(28,19,14,.66) 0%, rgba(39,26,18,.42) 38%, rgba(39,26,18,.02) 75%), url('/akoor-hero.png')",
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
+          backgroundPosition: 'center center',
+          backgroundSize: '100% 100%',
         }}
       >
         <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/15 via-transparent to-black/5" />
