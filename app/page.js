@@ -133,13 +133,13 @@ export default function HomePage() {
             </div>
             <div className="flex flex-col items-center text-center">
               <span className="flex h-14 w-14 items-center justify-center rounded-full bg-[#bd101b] text-white shadow-lg ring-4 ring-white/10">
-                <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="m14 6 4 4M4 20l4.5-1 10-10a2.12 2.12 0 0 0-3-3l-10 10L4 20Z"/></svg>
+                <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="m14.5 4.5 5 5M4 20l4.8-1.2L20 7.6a2.12 2.12 0 0 0-3-3L5.2 16.4 4 20Z"/><path d="m13 6 5 5M3 21h7"/></svg>
               </span>
               <h3 className="mt-3 text-sm font-semibold">Pengerjaan</h3>
             </div>
             <div className="flex flex-col items-center text-center">
               <span className="flex h-14 w-14 items-center justify-center rounded-full bg-[#bd101b] text-white shadow-lg ring-4 ring-white/10">
-                <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="m14 6 4 4M4 20l4.5-1 10-10a2.12 2.12 0 0 0-3-3l-10 10L4 20Z"/><path d="m8 16 2 2"/></svg>
+                <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M4 20h16M7 16l8-8 3 3-8 8H7v-3Z"/><path d="m14 9 2-2M17 4v-2M20 7h2M5 5l1 1M3 10h2"/></svg>
               </span>
               <h3 className="mt-3 text-sm font-semibold">Finishing</h3>
             </div>
