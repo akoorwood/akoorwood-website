@@ -43,7 +43,7 @@ export default function HomePage() {
             <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#f8e9e5] text-[#bd101b]">
               <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-7h6v7M8 9h.01M16 9h.01"/></svg>
             </span>
-            <div><h2 className="text-sm font-semibold text-[#4b3025] sm:text-base">Kualitas Jepara</h2><p className="mt-1 text-xs leading-relaxed text-[#806e61] sm:text-sm">Pengerjaan rapi dan penuh perhatian.</p></div>
+            <div><h2 className="text-sm font-semibold text-[#4b3025] sm:text-base">Kualitas Jepara</h2><p className="mt-1 text-xs leading-relaxed text-[#806e61] sm:text-sm">Dikerjakan dengan keterampilan dan ketelitian pengrajin berpengalaman.</p></div>
           </div>
           <div className="flex items-start gap-3">
             <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#f8e9e5] text-[#bd101b]">
