@@ -13,7 +13,7 @@ export default function HomePage() {
         style={{
           backgroundImage: "linear-gradient(90deg, rgba(28,19,14,.66) 0%, rgba(39,26,18,.42) 38%, rgba(39,26,18,.02) 75%), url('/akoor-hero.png')",
           backgroundPosition: 'center 54%',
-          backgroundSize: 'cover',
+          backgroundSize: '90% 100%',
           backgroundRepeat: 'no-repeat',
         }}
       >
