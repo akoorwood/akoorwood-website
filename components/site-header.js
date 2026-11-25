@@ -18,7 +18,7 @@ export default function SiteHeader() {
     <header className="site-header sticky top-0 z-50 w-full border-b border-[#eadfd8] bg-[#fbf8f4]/95 text-[#332923] shadow-sm backdrop-blur-md">
       <div className="mx-auto flex min-h-[76px] max-w-7xl items-center justify-between px-5 md:px-8">
         <a href="#home" onClick={() => setOpen(false)} className="group flex shrink-0 items-center gap-3" aria-label="Akoor Wood, beranda">
-          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#a63d32] text-sm font-bold tracking-tight text-white shadow-sm">AW</span>
+          <img src="/akoor-logo-red.png" alt="Logo Akoor Wood" className="h-11 w-11 rounded-full object-contain shadow-sm sm:h-12 sm:w-12" />
           <span className="leading-tight">
             <span className="block text-lg font-semibold tracking-[0.12em] text-[#8f352c]">AKOOR WOOD</span>
             <span className="hidden text-[9px] tracking-[0.24em] text-[#8b776b] sm:block">HANDCRAFTED FURNITURE</span>
