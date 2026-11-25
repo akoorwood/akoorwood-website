@@ -37,17 +37,33 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="about" className="mx-auto grid max-w-6xl scroll-mt-24 items-center gap-12 px-6 py-24 md:grid-cols-2">
+      <section id="about" className="mx-auto grid max-w-6xl scroll-mt-24 items-start gap-10 px-6 py-20 md:grid-cols-[1.15fr_.85fr] md:gap-14 md:py-24">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#a66e50]">Cerita Kami</p>
           <h2 className="mt-3 text-4xl font-semibold text-[#6f392b]">Tentang Akoor Wood</h2>
-          <p className="mt-6 text-lg leading-relaxed text-[#66564b]">
-            Akoor Wood menghadirkan furniture kayu premium dari Jepara dengan konsep modern minimalis dan kualitas workshop.
-          </p>
+          <div className="mt-6 space-y-4 text-base leading-relaxed text-[#66564b] md:text-lg">
+            <p>
+              Akoor Wood merupakan brand furniture Jepara yang menghadirkan perpaduan keindahan kayu alami, desain modern, dan pengerjaan berkualitas dari pengrajin berpengalaman.
+            </p>
+            <p>
+              Kami memproduksi berbagai kebutuhan furniture, mulai dari kursi cafe, kursi makan, meja, sofa, hingga furniture custom sesuai kebutuhan ruang dan karakter pelanggan.
+            </p>
+            <p>
+              Setiap produk dibuat dengan memperhatikan pemilihan material, detail konstruksi, kenyamanan, serta nilai estetika. Kami percaya furniture bukan sekadar pelengkap ruangan, tetapi bagian dari cerita dan karakter sebuah tempat.
+            </p>
+          </div>
         </div>
-        <div className="rounded-3xl bg-[#6f392b] p-10 text-white shadow-xl">
-          <h3 className="text-2xl font-semibold">Filosofi Kami</h3>
-          <p className="mt-4 leading-relaxed text-white/85">Kayu yang baik akan hidup puluhan tahun.</p>
+        <div className="space-y-5">
+          <div className="rounded-3xl bg-[#6f392b] p-8 text-white shadow-xl md:p-10">
+            <h3 className="text-2xl font-semibold">Filosofi Kami</h3>
+            <p className="mt-4 leading-relaxed text-white/85">Kayu yang baik akan hidup puluhan tahun.</p>
+            <p className="mt-3 leading-relaxed text-white/85">Kami ingin menghadirkan furniture yang tidak hanya indah saat pertama dilihat, tetapi tetap nyaman, fungsional, dan bernilai dalam jangka panjang.</p>
+          </div>
+          <div className="rounded-3xl border border-[#d8c7b8] bg-white/70 p-8 md:p-9">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a66e50]">Arah Kami</p>
+            <h3 className="mt-3 text-xl font-semibold text-[#6f392b]">Visi Akoor Wood</h3>
+            <p className="mt-3 leading-relaxed text-[#66564b]">Menjadi pilihan terpercaya untuk furniture kayu berkualitas dari Jepara.</p>
+          </div>
         </div>
       </section>
 
