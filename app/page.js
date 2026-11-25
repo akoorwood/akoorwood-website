@@ -126,9 +126,8 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-          <div className="mt-14 flex flex-col gap-3 border-t border-white/15 pt-6 text-xs text-white/50 sm:flex-row sm:items-center sm:justify-between">
+          <div className="mt-14 border-t border-white/15 pt-6 text-xs text-white/50">
             <p>© 2026 Akoor Wood — Dari Kayu Menjadi Cerita</p>
-            <p>Furniture dengan cerita, dibuat dengan perhatian.</p>
           </div>
         </div>
       </footer>
