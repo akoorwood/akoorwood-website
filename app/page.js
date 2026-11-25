@@ -9,7 +9,7 @@ export default function HomePage() {
 
       <section id="home" className="relative isolate scroll-mt-24 overflow-hidden bg-[#9d8069] text-white">
         <img
-          src="/akoor-hero.png"
+          src="/akoor-hero-interior.png"
           alt="Interior furniture Akoor Wood dengan kursi kayu dan meja samping"
           className="block h-auto w-full"
         />
