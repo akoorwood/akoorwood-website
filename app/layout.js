@@ -49,9 +49,9 @@ export const metadata = {
     images: ['/akoor-hero-interior.png'],
   },
   icons: {
-    icon: '/akoor-logo-transparent.png',
-    shortcut: '/akoor-logo-transparent.png',
-    apple: '/akoor-logo-transparent.png',
+    icon: '/akoor-logo-transparant.png',
+    shortcut: '/akoor-logo-transparant.png',
+    apple: '/akoor-logo-transparant.png',
   },
 }
 
@@ -60,7 +60,7 @@ const organizationSchema = {
   '@type': 'Organization',
   name: 'Akoor Wood',
   url: siteUrl,
-  logo: `${siteUrl}/akoor-logo-transparent.png`,
+  logo: `${siteUrl}/akoor-logo-transparant.png`,
   description:
     'Brand furniture Jepara yang menghadirkan furniture kayu dengan desain modern dan pengerjaan berkualitas.',
 }
