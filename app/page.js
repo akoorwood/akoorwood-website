@@ -115,12 +115,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="workshop" className="relative scroll-mt-24 overflow-hidden bg-[#38271f] px-6 py-14 text-white sm:py-16 md:py-20" style={{ backgroundImage: "linear-gradient(90deg, rgba(28,18,13,.92), rgba(40,25,17,.78)), url('/contact-wood-home.png')", backgroundSize: "cover", backgroundPosition: "center" }}>
+      <section id="workshop" className="relative scroll-mt-24 overflow-hidden bg-[#faf7f2] px-6 py-14 text-[#4b3025] sm:py-16 md:py-20">
         <div className="mx-auto max-w-6xl">
           <div className="max-w-xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#d6a58e]">Dari Awal Hingga Selesai</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#9a725d]">Dari Awal Hingga Selesai</p>
             <h2 className="mt-3 text-3xl font-semibold md:text-4xl">Proses Kami</h2>
-            <p className="mt-4 max-w-lg text-sm leading-relaxed text-white/80 md:text-base">
+            <p className="mt-4 max-w-lg text-sm leading-relaxed text-[#806e61] md:text-base">
               Dari pemilihan kayu, pengerjaan, hingga finishing, setiap tahap dilakukan dengan perhatian pada detail dan kualitas.
             </p>
           </div>
