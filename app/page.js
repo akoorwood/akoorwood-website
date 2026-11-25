@@ -11,12 +11,12 @@ export default function HomePage() {
         id="home"
         className="relative isolate flex min-h-[680px] scroll-mt-24 items-center overflow-hidden bg-[#9d8069] px-6 py-24 text-white md:min-h-[760px] md:px-12 lg:px-20"
         style={{
-          backgroundImage: "linear-gradient(90deg, rgba(28,19,14,.78) 0%, rgba(39,26,18,.60) 38%, rgba(39,26,18,.08) 75%), url('/akoor-hero.svg')",
+          backgroundImage: "linear-gradient(90deg, rgba(28,19,14,.66) 0%, rgba(39,26,18,.42) 38%, rgba(39,26,18,.02) 75%), url('/akoor-hero.png')",
           backgroundPosition: 'center',
           backgroundSize: 'cover',
         }}
       >
-        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/20 via-transparent to-black/5" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/15 via-transparent to-black/5" />
         <div className="mx-auto w-full max-w-7xl">
           <div className="max-w-2xl">
             <span className="mb-7 block h-1.5 w-20 rounded-full bg-[#c91420]" />
