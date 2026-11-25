@@ -9,10 +9,10 @@ export default function HomePage() {
 
       <section
         id="home"
-        className="relative isolate flex min-h-[680px] scroll-mt-24 items-center overflow-hidden bg-[#9d8069] px-6 py-24 text-white md:min-h-[760px] md:px-12 lg:px-20"
+        className="relative isolate flex min-h-[560px] scroll-mt-24 items-center overflow-hidden bg-[#9d8069] px-6 py-16 text-white sm:min-h-[590px] md:min-h-[640px] md:px-12 md:py-20 lg:min-h-[680px] lg:px-20"
         style={{
           backgroundImage: "linear-gradient(90deg, rgba(28,19,14,.66) 0%, rgba(39,26,18,.42) 38%, rgba(39,26,18,.02) 75%), url('/akoor-hero.png')",
-          backgroundPosition: 'center center',
+          backgroundPosition: 'center 54%',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
         }}
