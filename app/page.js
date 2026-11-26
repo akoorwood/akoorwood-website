@@ -7,7 +7,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-[#f8f5f0] text-[#241b16]">
       <SiteHeader />
 
-      <section id="home" className="relative isolate min-h-[560px] scroll-mt-24 overflow-hidden bg-[#4a3024] text-white sm:min-h-[620px] md:min-h-0">
+      <section id="home" className="relative isolate min-h-[560px] scroll-mt-24 overflow-hidden bg-[#4a3024] text-white sm:min-h-[620px] md:min-h-0 md:mx-auto md:max-w-[1440px]">
         <img
           src="/akoor-hero-interior.png"
           alt="Interior furniture Akoor Wood dengan kursi kayu dan meja samping"
