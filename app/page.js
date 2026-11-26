@@ -37,7 +37,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section aria-label="Keunggulan Akoor Wood" className="border-b border-[#eadfd3] bg-[#fffdfa] px-6 py-9 sm:py-11">
+      <section aria-label="Keunggulan Akoor Wood" className="border-b border-[#eadfd3] bg-[#fffdfa] px-6 py-9 sm:py-11 md:mx-auto md:max-w-[1440px]">
         <div className="mx-auto grid max-w-6xl grid-cols-2 gap-x-5 gap-y-8 md:grid-cols-4 md:gap-8">
           <div className="flex items-start gap-3">
             <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#f8e9e5] text-[#bd101b]">
