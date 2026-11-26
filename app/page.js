@@ -159,7 +159,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <footer id="contact" className="scroll-mt-24 bg-[#30231d] bg-cover bg-center px-6 py-16 text-white md:px-10 md:py-20" style={{ backgroundImage: "linear-gradient(rgba(24, 14, 9, 0.52), rgba(24, 14, 9, 0.62)), url('/contact-wood-home.png')" }}>
+      <footer id="contact" className="scroll-mt-24 bg-[#30231d] bg-cover bg-center px-6 py-16 text-white md:px-10 md:py-20 md:mx-auto md:max-w-[1440px]" style={{ backgroundImage: "linear-gradient(rgba(24, 14, 9, 0.52), rgba(24, 14, 9, 0.62)), url('/contact-wood-home.png')" }}>
         <div className="mx-auto max-w-6xl">
           <div className="grid gap-10 md:grid-cols-[1.05fr_.95fr] md:items-start md:gap-16">
             <div>
