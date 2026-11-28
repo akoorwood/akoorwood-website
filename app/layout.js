@@ -49,7 +49,7 @@ export const metadata = {
     images: ['/akoor-hero-interior.png'],
   },
   icons: {
-    icon: '/akoor-logo-transparant.png',
+    icon: [{ url: '/akoor-logo-transparant.png', type: 'image/png' }],
     shortcut: '/akoor-logo-transparant.png',
     apple: '/akoor-logo-transparant.png',
   },
